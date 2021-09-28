@@ -1,0 +1,32 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+  }
+  #navbar {
+    width: 100%;
+    height: 100vh;
+    background-image: url(bb.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+  }
+  @media (min-width:768px) {
+    .navbar navbar-expand{
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+  }
+  .nav-item
+  {
+      display: inline;
+  }
+  
+  
+  
+  
+  
