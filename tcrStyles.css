@@ -3,9 +3,17 @@
     padding: 0;
     font-family: 'Titillium Web', sans-serif;
 }
-a:hover{
-    font-weight: bolder;
-}
+body, html {
+    height: 100%;
+  }
+#dashboard {
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
 .navbar{
     font-weight: bold;
     position: relative; 
@@ -33,4 +41,23 @@ align-items: center;
 }
 .logo ul{
     padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+a:hover {
+    color: #fff;
+    outline: none;
+
+}
+#centerLogo{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
