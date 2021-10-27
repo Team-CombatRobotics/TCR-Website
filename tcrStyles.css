@@ -61,16 +61,24 @@ a:hover {
 
 }
 #centerLogo{
+    position: absolute;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 33%;
+    padding-top: 5%;
 }
 .AboutUs{
     background-color: #FFDE59;
     padding: 20px;
     height: 100vh;
+    
+}
+video
+{ 
+    opacity: 40%;
     
 }
 #AboutUs{
