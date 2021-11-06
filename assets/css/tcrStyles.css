@@ -162,6 +162,7 @@ video
     margin: 10px;
     height: 45vh;
     text-align: center;
+    border-radius: 2em;
 }
 #Mission{
     background-color: black;
@@ -173,6 +174,7 @@ video
     float: left;
     margin: 5px 10px;
     text-align: center;
+    border-radius: 2em;
 } 
 #Vision{
   background-color: black;
@@ -184,4 +186,16 @@ video
   float: right;
   margin: 5px 10px;
   text-align: center;
+  border-radius: 2em;
 } 
+.Sponsors{
+  height: 50vh;
+  background-color: #FFDE59;
+  text-align: center;
+}
+.ContactUs{
+  height: 50vh;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
