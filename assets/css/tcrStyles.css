@@ -149,11 +149,6 @@ ul{
     height: 100vh;
     
 }
-video
-{ 
-    opacity: 40%;
-    
-}
 #AboutUs{
     background-color: black;
     color: #fff;
@@ -190,7 +185,7 @@ video
 } 
 .Sponsors{
   height: 50vh;
-  background-color: #FFDE59;
+  background-color: #Fff;
   text-align: center;
 }
 .ContactUs{
