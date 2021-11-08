@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
+    <div id="nav">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
           <div class="nav-title">
@@ -39,7 +39,6 @@
         </div>
       </div>
     <section id="dashboard">
-        <img id = "centerLogo" src="assets/images/whitelogo.png">
         <video src="assets/images/TCRbgVideo.mp4" muted loop autoplay width="100%"></video>
         
     </section>
@@ -62,6 +61,18 @@
       <h2>Contact Us</h2>
 
     </section>
-  
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("nav").style.top = "0";
+        } 
+        else {
+          document.getElementById("nav").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
 </body>
 </html>
